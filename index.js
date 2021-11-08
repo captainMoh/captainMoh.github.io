@@ -46,8 +46,12 @@ boutton.addEventListener('click', () =>{
          val.push(tableau[valeur])
     }
 
-    mdp.innerText = val.join('')
-    //console.log(val.join(''))
+    mdp.value = val.join('')
+    
+    mdp.select()
+    document.execCommand('copy')
+    boutton.innerText = 'Copié !'
+    setTimeout(() => boutton.innerText = 'Génerer un mot de passe', 500)
 })
 
     
