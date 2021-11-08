@@ -6,8 +6,9 @@
 }
 
 body {
-  background: #0CDEF3;
+  background: linear-gradient(60deg, #0cf351, #039710);
   overflow: hidden;
+  height: 100vh;
 }
 
 .main-container {
@@ -33,7 +34,7 @@ body {
   font-size: xx-large;
   font-weight: bolder;
   border: none;
-  background: #0CDEF3;
+  background: transparent;
   width: 100%;
   text-align: center;
   outline: none;
